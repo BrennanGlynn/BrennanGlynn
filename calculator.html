@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/calculator.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+<div class="container">
+	<div id="screen">
+		<div id="input">
+			<div id="current">0</div>
+			<div id="history">0</div>
+		</div>
+	</div>
+	<div id="buttons">
+		<div class="column">
+			<button class="special" value="c">AC</button>
+			<button value="7">7</button>
+			<button value="4">4</button>
+			<button value="1">1</button>
+		</div>
+		<div class="column">
+			<button id="divide" class="operator" value="/">&divide;</button>
+			<button value="8">8</button>
+			<button value="5">5</button>
+			<button value="2">2</button>
+		</div>
+		<div class="column">
+			<button id="divide" class="operator" value="*">*</button>
+			<button value="9">9</button>
+			<button value="6">6</button>
+			<button value="3">3</button>
+		</div>
+		<div class="column right">
+			<button id="divide" class="operator" value="-">-</button>
+			<button id="divide" class="operator tall" value="+">+</button>
+			<button id="equals" class="tall" value="=">=</button>
+		</div>
+		<div id="bottom-row">
+			<button class="wide" value="0">0</button>
+			<button value=".">.</button>
+		</div>
+	</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/cal.js"></script>
+
+</body>
+</html>

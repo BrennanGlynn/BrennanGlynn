@@ -1,0 +1,84 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(#42275a, #734b6d)/*(#4CA1AF, #C4E0E5)*/;
+  text-align: center;
+}
+
+.container {
+  width: 36em;
+}
+
+h1 {
+  font-family: Six Caps;
+  font-size: 80px;
+  color: #fff;
+  display: inline
+}
+
+h2 {
+  color: white;
+}
+
+i {
+  margin-left: 20px;
+  color: #fff;
+}
+
+form {
+  display: inline;
+  font-family: orbitron;
+}
+
+.twitchList {
+  margin: auto;
+  background: white;
+  width: 36em;
+  border: 5px solid white;
+}
+
+.twitch {
+  background:lightgrey;
+  margin-top: 5px;
+  width: 35em;
+  text-align: left;
+  font-family: Raleway;
+}
+
+.online {
+  border-bottom: 3px solid #35F801;
+  border-left: 1px solid #35F801;
+  color: black;
+}
+
+.online:hover {
+  background-color: purple;
+  border-color: #42275a;
+  color: white;
+}
+
+.offline {
+  border:3px solid #909090;
+  color: #909090;
+}
+
+.offline:hover {
+  color: white;
+}
+
+#add {
+  border-color: purple;
+  border-radius: 85px;
+  text-align: center;
+  float: right;
+  margin-top: 35px;
+  padding-top: 5px;
+  color: black;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+  font-size: 102%;
+}

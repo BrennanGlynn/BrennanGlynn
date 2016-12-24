@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/pomodoro.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+
+<audio id="clickSound">
+  <source src="http://mihailo.centarzatalente.com/sounds/click.mp3"></source>
+</audio>
+
+<audio id="alarmSound">
+  <source src="http://brennanglynn.com/alarm.mp3"></source>
+</audio>
+
+<h1 id="title">Brennan Glynn</h1>
+<div id="app">
+  <div class="selection">
+    <p>Break Length</p>
+    <div class="timer">
+      <button id="break-subtract">-</button>
+      <p id="breakLength">5:00</p>
+      <button id="break-add">+</button>
+    </div>
+  </div>
+  <div class="selection">
+    <p>Session Length</p>
+    <div class="timer">
+      <button id="session-subtract">-</button>
+      <p id="sessionLength">25:00</p>
+      <button id="session-add">+</button>
+    </div>
+  </div>
+  <button id="begin-wrapper">
+    <p id="top-text">Begin</p>
+    <p id="bottom-text">25:00</p>
+  </button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/pomodoro.js"></script>
+
+</body>
+</html>

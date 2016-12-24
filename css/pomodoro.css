@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  background: #232323;
+  color: white;
+}
+
+body {
+  text-align: center;
+  font-family: Raleway;
+}
+
+h1 {
+  font-family: Lobster;
+  font-size: 100px;
+}
+
+p {
+  font-size: 50px;
+}
+
+div {
+  display: inline-block;
+}
+
+button {
+  font-size: 50px;
+  font-family: Raleway;
+  color: white;
+  border-color: transparent;
+  background-color: transparent;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  outline: none;
+}
+
+#app {
+  background-color: transparent;
+  margin-top: -34px;
+}
+
+.selection {
+  margin: 30px;
+}
+
+.timer *{
+  display: inline;
+}
+
+#begin-wrapper {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  border: 5px solid aqua;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+#top-text {
+  margin-top: 40px;
+}
+
+#bottom-text {
+  margin-top: 60px;
+}
